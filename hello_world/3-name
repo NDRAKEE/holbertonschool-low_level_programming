@@ -1,1 +1,1 @@
-$CFILE -o cisfun
+gcc $CFILE -o cisfum
