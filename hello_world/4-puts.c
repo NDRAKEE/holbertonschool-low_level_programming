@@ -2,15 +2,26 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ *
+ *  * main - Prints "Programming is like building a multilingual
+ *
+ *   *                puzzle, followed by a new line.
+ *
+ *    *
+ *
+ *     * Return: Always 0.
+ *
+ *      */
+
 int main(void)
+
 {
-	      int x;
 
-	            srand(time(0));
-		          x = rand()  - RAND_MAX / 2;
+	        puts("\"Programming is like building a multilingual puzzle");
 
-			        puts("Progaming is like building a multilingual puzzle")
 
-				      return 0;
+
+		        return (0);
+
 }
-
