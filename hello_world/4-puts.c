@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  *
  *  * main - Prints "Programming is like building a multilingual
