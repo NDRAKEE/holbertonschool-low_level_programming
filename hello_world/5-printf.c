@@ -1,16 +1,19 @@
-#include <stdio.h>
-
 /**
- * main - prints "programming is like bulding a multilingual
- *  puzzle,followed by a new line.
- * Return: Always 0. 
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
 {
-      puts("\"programing is like bulding a multilingual puzzle");
 
-      return (0);
+	        printf("with proper grammar, but the outcome is a piece of art,\n");
 
-} 
+		        return (0);
+
+}
