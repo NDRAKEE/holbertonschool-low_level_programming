@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - prints
+ * main -" prints is positive  is zero is negative
  *
  *
  * Return: 0 always.
