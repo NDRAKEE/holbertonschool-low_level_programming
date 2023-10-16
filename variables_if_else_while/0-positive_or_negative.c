@@ -2,11 +2,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * main - Prints
- *        it is positive, negative, or zero.
- * Return: 0.
-*i/
+* main - Prints
+*
+* Description: zero positive_or_negative.
+*
+* Return: 0.
+*/
 int main(void)
 {
 	int n;
