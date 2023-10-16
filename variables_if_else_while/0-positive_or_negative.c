@@ -2,15 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints
- *
- * Description: zero positive_or_negative.
- *
- * Return: 0.
- */
-  int main(void)
+* main - Prints
+*
+* Description: zero positive_or_negative.
+*
+* Return: 0.
+*/
+int main(void)
 {
-    int n;
+        int n;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
