@@ -1,16 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-  /**
-  * main - start
-  *
-  * Description:
-  *
-  * Return: 0.
-  */
+/**
+ * main - Prints
+ *
+ * Description: zero positive_or_negative.
+ *
+ * Return: 0.
+ */
   int main(void)
-  {
+{
     int n;
 
     srand(time(0));
@@ -24,4 +23,4 @@
         printf("%d is zero\n", n);
 
     return (0);
-    }
+}
