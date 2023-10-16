@@ -2,15 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
-main - starts
-*
-Description:
-*
-Return: 0.
-*/
-int main(void)
-{
+ /**
+ * main - start
+ *
+ * Description:
+ *
+ * Return: 0.
+ */
+ int main(void)
+ {
     int n;
 
     srand(time(0));
@@ -24,4 +24,4 @@ int main(void)
         printf("%d is zero\n", n);
 
     return (0);
-}
+ }
