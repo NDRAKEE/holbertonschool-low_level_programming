@@ -2,7 +2,7 @@
 
 /**
  * main - Prints
- * the alphabet a and z 
+ * the alphabet a and z
  *
  * Return: 0.
  */
