@@ -7,8 +7,8 @@
  * Return: 0.
  */
 int main (void
-token
-        char letter;
+{
+         char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
