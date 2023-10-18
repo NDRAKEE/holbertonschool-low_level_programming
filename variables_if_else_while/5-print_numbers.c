@@ -5,17 +5,11 @@ int main(void)
 
 	int x;
 
-	for (x = 0; x <10; x++)
+	for(x = 0; x < 10; x++)
+	
 	{
-		putchar(x + '0');
-		if (x < 10)
-		putchar(',');
-		putchar(' ');
+	       putchar('0' + x);
 	}
-
-	putchar('\n');
-	}
-    }
-   putchar('\');
-   return (0);
+	putchar("\n")
+	return (0);
 }
