@@ -1,22 +1,25 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Sucess)
+*
+ */
 int main(void)
 {
-	char alphabet ;
 
-	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-	 {
+	char alphabet;
 
-        putchar(alphabet);
+	for  (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	{
+		putchar(alphabet);
 
-    }
+	}
 	for (alphabet = 'A'; alphabet <= 'Z' ; alphabet++)
 	{
-
-        putchar(alphabet);
-
-    }
-
-    putchar('\n');
-	 return (0);
+		putchar(alphabet);
+	}
+	putchar('\n');
+	return (0);
 }
