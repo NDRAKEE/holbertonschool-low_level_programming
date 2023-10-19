@@ -3,18 +3,18 @@
 #include <stdio.h>
 
 /**
-* main - prints
-*
-* Description: zero positive_or_negative.
-*
-* Return: 0.
-*/
+ * main - prints
+ *
+ * Description: zero positive_or_negative.
+ *
+ * Return: 0.
+ */
 int main(void)
 {
 	int n, a;
 
 	srand(time(0));
-		n = rand() -  RAND_MAX / 2;
+	n = rand() -  RAND_MAX / 2;
 
 	a = n % 10;
 
