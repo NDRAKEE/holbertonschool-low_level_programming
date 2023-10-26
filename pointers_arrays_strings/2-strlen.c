@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * _strlen - returns the length of a string
+ * @s: pointer to a char
  *
- * Return: Always 0.
+ * Return: int
  */
-int main(void)
+int _strlen(char *s)
 {
-	char *str;
-	int len;
+	int length = 0;
 
-	str = "My pointeur in  c !";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
+
+	return (length);
 }
