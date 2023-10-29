@@ -1,25 +1,24 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _puts - putchar caractere
- * @s: i putchar
-*/
-void print_rev(char *s);
+ * print_rev - Prints in reverse
+ * @s: The string to a inverse
+ *
+ * Return: putchar
+ */
+
+void print_rev(char *s)
 {
-	char*s = len
+	int len;
+	int a = 0;
 
-	for ( i = 0, i <  len, i++)
+	while (*(s + len) != '\0')
 	{
-
-		_putchar(*s[i]);
-
+		len++;
 	}
-
-	for (i = len-1; i > 0; i--)
+	for (a = len - 1; a >= 0; a--)
 	{
-		_putchar(s[i];
+		_putchar(*(s + a));
 	}
-
 	_putchar('\n');
-
 }
