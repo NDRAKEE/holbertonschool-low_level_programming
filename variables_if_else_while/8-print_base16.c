@@ -1,18 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers of base 16 in lowercase
- * Return: 0
- */
+  * main - Prints a hexadecimal string
+  *
+  * Return: 0
+  */
 int main(void)
 {
-	int num;
+	int number;
 
-	for (num = 0; num < 15; num++)
+	for (number = '0'; number <= '9'; number++)
 	{
-
-		char ( "%x", num);
+		putchar(number);
 	}
-	char("\n");
+
+	for (number = 'a'; number <= 'f'; number++)
+	{
+		putchar(number);
+	}
+
+	putchar('\n');
+
 	return (0);
 }
