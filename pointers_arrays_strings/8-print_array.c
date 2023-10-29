@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * print_array - show array content
- * @a: Array to print
- * @n: Number of elements to print
+ * print_array - show string pointed
+ * @b: string  to print
+ * @w: Number to print
  * Return: void
  */
-void print_array(int *a, int n)
+void print_array(int *b, int w)
 {
-	int i;
+	int r;
 
-	for (i = 0; i < n; i++)
+	for (r = 0; r < w; r++)
 	{
-		printf("%d", a[i]);
-		if (i < n - 1)
+		printf("%d", b[r]);
+		if (r < w - 1)
 		{
 			printf(", ");
 		}
