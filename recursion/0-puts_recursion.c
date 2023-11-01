@@ -1,11 +1,12 @@
+#include "stdio.h"
 #include "main.h"
 
 /**
- * _puts_recursion -  recursion string
+ * _puts_recursion -  recusion  a string
  *
- * @s: *s
+ * @s: pointeurs
  *
- * Return: Void
+ * Return: 0
  */
 
 void _puts_recursion(char *s)
@@ -19,6 +20,8 @@ void _puts_recursion(char *s)
 	else
 	{
 		_putchar(*s);
-		_puts_recursion(s);
+		_puts_recursion(s + 1);
 	}
 }
+
+
